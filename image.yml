@@ -11,6 +11,8 @@ upstream:
     type: github_release
     repo: morpheus65535/bazarr
     prerelease: true
+    require_assets:
+      - asset: '^bazarr\.zip$'
   notes:
     type: github_release
     repo: morpheus65535/bazarr
